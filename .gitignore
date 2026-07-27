@@ -1,0 +1,47 @@
+# Terraform working directories
+**/.terraform/**
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform plan files
+*.tfplan
+tfplan
+plan.out
+
+# Terraform variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Keep example variable files
+!*.tfvars.example
+!*.tfvars.json.example
+
+# Terraform crash and log files
+crash.log
+crash.*.log
+terraform.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Local state backups and migration backups
+*-before-migration.tfstate
+*-backup.tfstate
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vs
+mypawsbnb/
